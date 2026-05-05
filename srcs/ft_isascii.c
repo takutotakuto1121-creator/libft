@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:47:16 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/01 18:34:22 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/05 22:31:24 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 int	ft_isascii(int c)
 {
-	unsigned char	uc;
-
-	uc = (unsigned char)c;
-	return (0 <= uc && uc <= 127);
+	return (0 <= c && c <= 127);
 }
 
 // #include <stdio.h>

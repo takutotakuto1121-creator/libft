@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:50:01 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/02 00:44:07 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/05 23:48:02 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,6 @@ int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
-int		ft_toupper(int c);
-int		ft_tolower(int c);
 void	*ft_memalloc(size_t size);
 void	*ft_calloc(size_t count, size_t size);
 void	ft_memdel(void **ap);

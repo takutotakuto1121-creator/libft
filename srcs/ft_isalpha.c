@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:47:09 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/01 17:51:43 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/05 22:31:01 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 int	ft_isalpha(int c)
 {
-	unsigned char	uc;
-
-	uc = (unsigned char)c;
-	if (('a' <= uc && uc <= 'z') || ('A' <= uc && uc <= 'Z'))
+	if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z'))
 		return (1);
 	return (0);
 }

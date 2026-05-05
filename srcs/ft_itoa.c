@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:47:25 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/01 17:47:26 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/05 22:20:30 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ char	*ft_itoa(int n)
 	char	*head;
 
 	if (n == 0)
-		return ("0");
+		return (ft_strdup ("0"));
 	nb = n;
 	digit = ft_count_digit (nb);
 	s = (char *)malloc(sizeof(char) * (digit + 2));

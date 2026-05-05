@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:47:50 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/01 17:47:50 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/05 23:44:19 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ t_list	*ft_lstnew(void *content)
 	t_list	*new;
 
 	new = (t_list *)malloc(sizeof(t_list));
+	if (!new)
+		return (NULL);
 	new->content = content;
 	new->next = NULL;
 	return (new);

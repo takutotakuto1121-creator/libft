@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:47:22 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/01 17:47:23 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/05 22:31:45 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 int	ft_isprint(int c)
 {
-	unsigned char	uc;
-
-	uc = (unsigned char)c;
-	return (32 <= uc && uc <= 126);
+	return (32 <= c && c <= 126);
 }
 
 // #include <stdio.h>
