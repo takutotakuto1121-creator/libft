@@ -36,7 +36,7 @@
 * **数値・関数適用・出力:**
 `ft_itoa`, `ft_strmapi`, `ft_striteri`, `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`
 
-### Part 3: 連結リスト（ボーナス）
+### Part 3: 連結リスト
 動的なデータ管理を可能にする、独自の連結リスト構造体 (`t_list`) を操作する関数です。
 
 * **ノード操作と管理:**
