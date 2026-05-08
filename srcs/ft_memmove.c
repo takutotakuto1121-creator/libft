@@ -6,7 +6,7 @@
 /*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:48:11 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/08 16:15:42 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/08 17:19:15 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	char		*d;
 	const char	*s;
-	size_t			i;
+	size_t		i;
 
 	d = (char *)dst;
 	s = (const char *)src;
