@@ -1,7 +1,7 @@
 *This project has been created as part of the 42 curriculum by <tsugimot>.*
 
 ## 概要(Description)
-この課題は42cursusの一番最初の課題です。C言語でライブラリを作成しました。C言語の基本を理解することと、これから使用する便利なライブラリを作成することを目的としています。
+この課題は42cursusの一番最初の課題です。C言語で自作ライブラリを作成しました。C言語の基本を理解することと、これから使用する便利なライブラリを作成することを目的としています。
 
 ## 指示(Instructions)
 このプロジェクトには `Makefile` が含まれており、以下のルールが適用されます。
@@ -14,13 +14,10 @@
 全てのソースファイルは、`-Wall -Wextra -Werror` フラグを用いて `cc` でコンパイルされます。
 
 実行手順は以下の通りです。
-'make' で 'libft.a'を作成し、それをmain関数を含む任意のファイルとともにコンパイルします。
-
-## 参考(Resources)
-manを参照しました。
-AIは使用していません。
+`make` で `libft.a`を作成し、それをmain関数を含む任意のファイルとともにコンパイルします。
 
 ## 作成した関数について(about functions created)
+
 ### Part 1: Libc関数
 標準ライブラリの関数を `ft_` プレフィックスを付けて再実装しています。これらは元の関数と同じ挙動をします。
 
@@ -44,3 +41,7 @@ AIは使用していません。
 
 * **ノード操作と管理:**
 `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
+
+## 参考(Resources)
+manを参照しました。
+AIは使用していません。
