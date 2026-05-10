@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsugimot <tsugimot@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 17:50:01 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/05 23:48:02 by tsugimot         ###   ########.fr       */
+/*   Updated: 2026/05/10 17:23:53 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,5 +82,7 @@ int		ft_lstsize(t_list *lst);
 t_list	*ft_lstlast(t_list	*lst);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 t_list	*ft_lstnew(void *content);
+int		ft_tolower(int c);
+int		ft_toupper(int c);
 
 #endif

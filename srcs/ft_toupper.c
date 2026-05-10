@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   tolower.c                                          :+:      :+:    :+:   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tsugimot <tsugimot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/08 17:28:06 by tsugimot          #+#    #+#             */
-/*   Updated: 2026/05/08 17:28:12 by tsugimot         ###   ########.fr       */
+/*   Created: 2026/05/10 17:24:21 by tsugimot          #+#    #+#             */
+/*   Updated: 2026/05/10 17:24:31 by tsugimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	tolower(int c)
+int	ft_toupper(int c)
 {
-	if ('A' <= c && c <= 'Z')
-		return (c + 'a' - 'A');
+	if ('a' <= c && c <= 'z')
+		return (c + 'A' - 'a');
 	return (c);
 }
 
 // #include <stdio.h>
 // int	main(void)
 // {
-// 	printf("%c %c %c %c", 'A', '4', tolower ('A'), tolower ('4'));
+// 	printf("%c %c %c %c", 'a', '4', toupper ('a'), toupper ('4'));
 // 	return (0);
 // }
