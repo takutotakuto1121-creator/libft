@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <tsugimot>.*
+*This project has been created as part of the 42 curriculum by tsugimot.*
 
 ## 概要(Description)
 この課題は42cursusの一番最初の課題です。C言語で自作ライブラリを作成しました。C言語の基本を理解することと、これから使用する便利なライブラリを作成することを目的としています。
